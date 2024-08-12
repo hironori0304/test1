@@ -4,7 +4,7 @@ import streamlit as st
 from matplotlib import font_manager
 
 # 日本語フォントの設定
-font_path = "C:/Windows/Fonts/msgothic.ttc"  # 使用するフォントファイルのパス
+font_path = "./msgothic.ttc"# 使用するフォントファイルのパス
 font_prop = font_manager.FontProperties(fname=font_path)
 
 # Streamlitアプリの設定
